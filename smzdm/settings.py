@@ -14,6 +14,12 @@ BOT_NAME = 'smzdm'
 SPIDER_MODULES = ['smzdm.spiders']
 NEWSPIDER_MODULE = 'smzdm.spiders'
 
+#Mysql database configure setting
+MYSQL_HOST = 'localhost'
+MYSQL_DBNAME = 'scrapydb'
+MYSQL_USER = 'root'
+MYSQL_PASSWD = 'root'
+#end of Mysql configure setting
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'smzdm (+http://www.yourdomain.com)'
@@ -64,9 +70,9 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'smzdm.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'smzdm.pipelines.SmzdmPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
