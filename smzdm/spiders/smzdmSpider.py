@@ -10,10 +10,10 @@ class smzdmSpider(scrapy.Spider):
         sites = response.xpath('//li[@class="feed-row-wide"]')
         for site in sites:
             item = SmzdmItem()
-            item['title'] = site.xpath('h5/a/@onclick').extract()
+            item['title'] = site.xpath('h5/a/text()').extract()
             item['price'] = site.xpath('h5/a/span/text()').extract()
             item['picture'] = site.xpath('div/div[@class="z-feed-img"]/a[@target="_blank"]/@href').extract()
-            item['describe'] = site.xpath('div/div[2]/div[2]/strong/text()').extract()
+            item['good_describe'] = site.xpath('div/div[2]/div[2]/strong/text()').extract()
             item['worthy'] = site.xpath('div/div[2]/div[3]/div[1]/span/a[1]/span[1]/span/text()').extract()
             item['unworthy'] = site.xpath('div/div[2]/div[3]/div[1]/span/a[2]/span[1]/span/text()').extract()
             item['web'] = site.xpath('div/div[2]/div[3]/div[2]/span/a/text()').extract()

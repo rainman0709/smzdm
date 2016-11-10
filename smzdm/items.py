@@ -14,7 +14,7 @@ class SmzdmItem(Item):
     title = Field()
     price = Field()
     picture = Field()
-    describe = Field()
+    good_describe = Field()
     worthy = Field()
     unworthy = Field()
     web = Field()
