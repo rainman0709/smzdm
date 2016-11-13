@@ -23,3 +23,4 @@ class SmzdmPipeline(object):
 
     def _conditional_insert(self,tx, item):
         tx.execute('insert into scrapydb.smzdm_data (picture,title,web,worthy,unworthy,price,web_url,good_describe) values ("%s","%s","%s",%s,%s,"%s","%s","%s")',(item['picture'],item['title'],item['web'],item['worthy'],item['unworthy'],item['price'],item['web_url'],item['good_describe']))
+

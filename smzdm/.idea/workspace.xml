@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="smzdmSpider.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="smzdmSpider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spiders/smzdmSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -36,8 +36,8 @@
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -46,27 +46,26 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="e#193#207#0" expanded="true" />
-                <marker date="1478790339610" expanded="true" signature="811:913" ph="insert into scrapydb.smzdm_data... " />
-                <marker date="1478790339610" expanded="true" signature="811:914" ph="insert into smzdm_data... " />
-                <marker date="1478790339610" expanded="true" signature="811:946" ph="insert into scrapydb.smzdm_data... " />
-                <marker date="1478790339610" expanded="true" signature="811:949" ph="insert into scrapydb.smzdm_data... " />
-                <marker date="1478790339610" expanded="true" signature="811:951" ph="insert into scrapydb.smzdm_data... " />
-                <marker date="1478790339610" expanded="true" signature="811:959" ph="insert into scrapydb.smzdm_data... " />
-                <marker date="1478790339610" expanded="true" signature="811:1081" ph="insert into scrapydb.smzdm_data... " />
+                <marker date="1479012496183" expanded="true" signature="811:913" ph="insert into scrapydb.smzdm_data... " />
+                <marker date="1479012496183" expanded="true" signature="811:914" ph="insert into smzdm_data... " />
+                <marker date="1479012496183" expanded="true" signature="811:945" ph="insert into scrapydb.smzdm_data... " />
+                <marker date="1479012496183" expanded="true" signature="811:951" ph="insert into scrapydb.smzdm_data... " />
+                <marker date="1479012496183" expanded="true" signature="811:959" ph="insert into scrapydb.smzdm_data... " />
+                <marker date="1479012496183" expanded="true" signature="811:1081" ph="insert into scrapydb.smzdm_data... " />
               </folding>
             </state>
           </provider>
@@ -77,10 +76,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/items.py" />
-        <option value="$PROJECT_DIR$/spiders/smzdmSpider.py" />
         <option value="$PROJECT_DIR$/pipelines.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/spiders/smzdmSpider.py" />
       </list>
     </option>
   </component>
@@ -91,7 +90,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="94" />
+    <option name="y" value="89" />
     <option name="width" value="888" />
     <option name="height" value="634" />
   </component>
@@ -386,10 +385,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="94" width="888" height="634" extended-state="0" />
+    <frame x="0" y="89" width="888" height="634" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -457,13 +456,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#193#207#0" expanded="true" />
-            <marker date="1478790339610" expanded="true" signature="811:913" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:914" ph="insert into smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:946" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:949" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:951" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:959" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:1081" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:913" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:914" ph="insert into smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:945" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:951" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:959" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:1081" ph="insert into scrapydb.smzdm_data... " />
           </folding>
         </state>
       </provider>
@@ -494,45 +492,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+            <marker date="1479012496183" expanded="true" signature="811:913" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:914" ph="insert into smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:945" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:951" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:959" ph="insert into scrapydb.smzdm_data... " />
+            <marker date="1479012496183" expanded="true" signature="811:1081" ph="insert into scrapydb.smzdm_data... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spiders/smzdmSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="e#193#207#0" expanded="true" />
-            <marker date="1478790339610" expanded="true" signature="811:913" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:914" ph="insert into smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:946" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:949" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:951" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:959" ph="insert into scrapydb.smzdm_data... " />
-            <marker date="1478790339610" expanded="true" signature="811:1081" ph="insert into scrapydb.smzdm_data... " />
           </folding>
         </state>
       </provider>

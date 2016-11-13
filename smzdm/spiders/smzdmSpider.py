@@ -13,6 +13,7 @@ class smzdmSpider(scrapy.Spider):
             item['title'] = site.xpath('h5/a/text()').extract()
             item['price'] = site.xpath('h5/a/span/text()').extract()
             item['picture'] = site.xpath('div/div[@class="z-feed-img"]/a[@target="_blank"]/@href').extract()
+            item['image_urls'] = site.xpath('div/div[@class="z-feed-img"]/a[@target="_blank"]/img/@src').extract()
             item['good_describe'] = site.xpath('div/div[2]/div[2]/strong/text()').extract()
             item['worthy'] = site.xpath('div/div[2]/div[3]/div[1]/span/a[1]/span[1]/span/text()').extract()
             item['unworthy'] = site.xpath('div/div[2]/div[3]/div[1]/span/a[2]/span[1]/span/text()').extract()

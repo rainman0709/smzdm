@@ -19,3 +19,5 @@ class SmzdmItem(Item):
     unworthy = Field()
     web = Field()
     web_url = Field()
+    image_urls = Field()
+    images = Field()
