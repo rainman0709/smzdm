@@ -22,5 +22,5 @@ class SmzdmPipeline(object):
             raise DropItem("Missing web, it's not a good!")
 
     def _conditional_insert(self,tx, item):
-        tx.execute('insert into scrapydb.smzdm_data (picture,title,web,worthy,unworthy,price,web_url,good_describe) values ("%s","%s","%s",%s,%s,"%s","%s","%s")',(item['picture'],item['title'],item['web'],item['worthy'],item['unworthy'],item['price'],item['web_url'],item['good_describe']))
+        tx.execute('insert into scrapydb.smzdm_data (address,title,web,worthy,unworthy,price,web_url,good_describe,images) values (%s,%s,%s,%s,%s,%s,%s,%s,%s)',(item['address'],item['title'],item['web'],item['worthy'],item['unworthy'],item['price'],item['web_url'],item['good_describe'],item['images']))
 

@@ -13,7 +13,7 @@ class SmzdmItem(Item):
     # name = Field()
     title = Field()
     price = Field()
-    picture = Field()
+    address = Field()
     good_describe = Field()
     worthy = Field()
     unworthy = Field()
