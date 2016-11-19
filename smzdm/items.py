@@ -21,3 +21,4 @@ class SmzdmItem(Item):
     web_url = Field()
     image_urls = Field()
     images = Field()
+    good_time = Field()

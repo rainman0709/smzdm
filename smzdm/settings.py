@@ -75,7 +75,7 @@ ITEM_PIPELINES = {
     'smzdm.pipelines.SmzdmPipeline': 300,
     'scrapy.contrib.pipeline.images.ImagesPipeline': 400
 }
-IMAGES_STORE = '/home/rainman/scrapy/smzdm/pictures'
+IMAGES_STORE = '/home/rainman/scrapy/smzdm_rebuild/pictures'
 IMAGE_EXPIRES = 15
 
 # Enable and configure the AutoThrottle extension (disabled by default)

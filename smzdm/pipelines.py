@@ -22,5 +22,8 @@ class SmzdmPipeline(object):
             raise DropItem("Missing web, it's not a good!")
 
     def _conditional_insert(self,tx, item):
-        tx.execute('insert into scrapydb.smzdm_data (address,title,web,worthy,unworthy,price,web_url,good_describe,images) values (%s,%s,%s,%s,%s,%s,%s,%s,%s)',(item['address'],item['title'],item['web'],item['worthy'],item['unworthy'],item['price'],item['web_url'],item['good_describe'],item['images']))
-
+        update = tx.execute("select 1 from scrapydb.smzdm_test where address = '{0}'".format(item['address']))
+        if update:
+            tx.execute("update scrapydb.smzdm_test set address = '{0}',title = '{1}',web = '{2}',worthy = '{3}',unworthy = '{4}',price = '{5}',web_url = '{6}',good_describe = '{7}',images = '{8}',good_time = '{9}' where address = '{10}'".format(item['address'],item['title'],item['web'],item['worthy'],item['unworthy'],item['price'],item['web_url'],item['good_describe'],item['images'],item['good_time'],item['address']))
+        else:
+            tx.execute("insert into scrapydb.smzdm_test (address,title,web,worthy,unworthy,price,web_url,good_describe,good_time) values ('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}')".format(item['address'],MySQLdb.escape_string(item['title']),MySQLdb.escape_string(item['web']),item['worthy'],item['unworthy'],MySQLdb.escape_string(item['price']),item['web_url'],MySQLdb.escape_string(item['good_describe']),item['good_time']))
