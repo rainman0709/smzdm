@@ -73,10 +73,10 @@ ROBOTSTXT_OBEY = False
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'smzdm.pipelines.SmzdmPipeline': 300,
-    'scrapy.contrib.pipeline.images.ImagesPipeline': 400
+#    'scrapy.contrib.pipeline.images.ImagesPipeline': 400
 }
-IMAGES_STORE = '/home/rainman/scrapy/smzdm_rebuild/pictures'
-IMAGE_EXPIRES = 15
+#IMAGES_STORE = '/home/rainman/scrapy/smzdm_rebuild/pictures'
+#IMAGE_EXPIRES = 15
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
